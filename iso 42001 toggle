@@ -1,0 +1,76 @@
+
+	<script>
+    jQuery("#isoSec-01").click(function() {
+		closeActive();
+		jQuery("#isoSec-01").addClass( "active" );
+		jQuery("#isoContent-01").toggleClass( "closed" );
+		jQuery("#isoContent-01").toggleClass( "open" );
+	});
+	jQuery("#isoSec-02").click(function() {
+		closeActive();
+		jQuery("#isoSec-02").addClass( "active" );
+		jQuery("#isoContent-02").toggleClass( "closed" );
+		jQuery("#isoContent-02").toggleClass( "open" );
+	});
+	jQuery("#isoSec-03").click(function() {
+		closeActive();
+		jQuery("#isoSec-03").addClass( "active" );
+		jQuery("#isoContent-03").toggleClass( "closed" );
+		jQuery("#isoContent-03").toggleClass( "open" );
+	});
+	jQuery("#isoSec-04").click(function() {
+		closeActive();
+		jQuery("#isoSec-04").addClass( "active" );
+		jQuery("#isoContent-04").toggleClass( "closed" );
+		jQuery("#isoContent-04").toggleClass( "open" );
+	});
+	jQuery("#isoSec-05").click(function() {
+		closeActive();
+		jQuery("#isoSec-05").addClass( "active" );
+		jQuery("#isoContent-05").toggleClass( "closed" );
+		jQuery("#isoContent-05").toggleClass( "open" );
+	});
+	jQuery("#isoSec-06").click(function() {
+		closeActive();
+		jQuery("#isoSec-06").addClass( "active" );
+		jQuery("#isoContent-06").toggleClass( "closed" );
+		jQuery("#isoContent-06").toggleClass( "open" );
+	});
+	
+	// Search for open content and close it //
+	function closeActive() {
+		jQuery("#isoSec-01").removeClass( "active" );
+		jQuery("#isoSec-02").removeClass( "active" );
+		jQuery("#isoSec-03").removeClass( "active" );
+		jQuery("#isoSec-04").removeClass( "active" );
+		jQuery("#isoSec-05").removeClass( "active" );
+		jQuery("#isoSec-06").removeClass( "active" );
+		
+		if (jQuery("#isoContent-01").hasClass("open")) {
+			jQuery("#isoContent-01").toggleClass( "closed" );
+			jQuery("#isoContent-01").toggleClass( "open" );
+		}
+		if (jQuery("#isoContent-02").hasClass("open")) {
+			jQuery("#isoContent-02").toggleClass( "closed" );
+			jQuery("#isoContent-02").toggleClass( "open" );
+		}
+		if (jQuery("#isoContent-03").hasClass("open")) {
+			jQuery("#isoContent-03").toggleClass( "closed" );
+			jQuery("#isoContent-03").toggleClass( "open" );
+		}
+		if (jQuery("#isoContent-04").hasClass("open")) {
+			jQuery("#isoContent-04").toggleClass( "closed" );
+			jQuery("#isoContent-04").toggleClass( "open" );
+		}
+		if (jQuery("#isoContent-05").hasClass("open")) {
+			jQuery("#isoContent-05").toggleClass( "closed" );
+			jQuery("#isoContent-05").toggleClass( "open" );
+		}
+		if (jQuery("#isoContent-06").hasClass("open")) {
+			jQuery("#isoContent-06").toggleClass( "closed" );
+			jQuery("#isoContent-06").toggleClass( "open" );
+		}
+	}
+    
+    </script>
+
